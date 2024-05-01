@@ -1,0 +1,85 @@
+hello.va
+print("Hello World")
+
+conditional.va
+var a = 3
+var b = 4
+if (a < b) {
+  print("Hello World")
+} else {
+  print("Yello")
+}
+
+for_loop.va
+for (var i = 0; i <= 3; i++) {
+  print(a)
+  a++
+}
+
+
+
+prof example programs
+sampleProgram = """ASSIGN X=4
+ASSIGN Y=5
+PRINT X
+PRINT Y
+PRINT X
+PRINT Z
+ASSIGN Z=10
+ASSIGN _=2+X/3*Y
+Woo hoo!
+PRINT X
+PRINT Z
+PRINT _
+"""
+
+fizzBuzz = """ASSIGN I = 0
+
+FOR I FROM 1 TO 100:
+    IF I % 15 == 0:
+        PRINT 'FizzBuzz'
+    ELIF I % 3 == 0:
+        PRINT 'Fizz'
+    ELIF I % 5 == 0:
+        PRINT 'Buzz'
+    ELSE:
+        PRINT I
+    END_IF
+    I++
+END_FOR
+"""
+
+# while_loop = """
+# """
+
+for_loop = """FOR I=1,100:
+PRINT I
+NEXT I
+"""
+
+print_vars = """ASSIGN I=3
+PRINT I
+"""
+
+print_words = """PRINT 'FIZZ'
+PRINT 'BUZZ'
+"""
+
+prints = print_vars + print_words
+
+if_statement = """
+"""
+
+label_and_jump = """
+ASSIGN i = 0
+i++
+Label1:
+PRINT i
+JUMP Label1
+"""
+
+# print(prints)
+
+# executeProgram(prints)
+
+executeProgram(for_loop)
